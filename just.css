@@ -1,0 +1,299 @@
+.kl {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; 
+    position: relative; 
+    overflow: hidden;
+}
+
+.background-image {
+    background-image: url('pic/newy.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 1000px; 
+    filter: blur(8px); 
+    z-index: -1; 
+}
+.hello{
+    background-image: url('pic/newy.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; 
+}
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+}
+
+.image-container {
+    position: relative; 
+    flex: 1; /
+
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+    margin-top: 30px;
+}
+
+.text-container {
+    flex: 1; 
+    padding-left: 20px; 
+    margin-top: 400px;
+    color: mintcream;
+}
+
+.text {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+
+.centered2 {
+    text-align: center;
+    color: lightgrey;
+    margin: 0px 0 20px 0; 
+    position: relative; 
+    z-index: 1; 
+}
+
+
+
+
+
+body {
+    background: linear-gradient(135deg, #f0f0f0, #d3d3d3); /* Light gradient background */
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin-right: auto;
+    font-family: 'Cambria', Georgia, serif;
+    color: #fff; 
+}
+nav a {
+    margin-left: 20px;
+    font-size: large;
+    color: #fff; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:red; 
+}
+
+
+.content {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.abtme img {
+    width: 500px; 
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 40px; 
+    margin-left: 30px;
+}
+
+
+.text-box {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 500px; 
+    height: 400px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+
+.para {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left; 
+    font-size: larger;
+}
+
+.para p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333; 
+}
+
+
+.back {
+    position: relative;
+}
+
+.back img {
+    height: 300px; 
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.back1 {
+    position: relative;
+}
+
+.back1 img {
+    height: 300px; 
+    width: 100%;
+}
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-100%, -150%);
+    color: #fff; 
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.progc{
+    margin-top: 50px;
+}
+.certificate-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+}
+
+.progc, .genesis {
+    text-align: center;
+    flex-basis: 48%; 
+}
+
+.genesis {
+    margin-top: 40px; 
+}
+.back2 {
+    position: relative;
+}
+
+.back2 img {
+    height: 300px; 
+    width: 100%;
+}
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-230%, -150%);
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.back3 {
+    position: relative;
+}
+
+.back3 img {
+    height: 300px; 
+    width: 100%;
+}
+.centered3 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-140%, -150%);
+    color: #fff; 
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.centered4 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-170%, -150%);
+    color: #fff; 
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.semester-container {
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px;
+}
+
+.sem-1, .sem-2 {
+    flex: 1; 
+    margin: 10px;
+    text-align: center;
+}
+
+.sem-1 img, .sem-2 img {
+    width: 100%; 
+    height: auto;
+}
+
+
+.sem-1 h1, .sem-2 h1 {
+    font-size: 24px;
+    color: #333;
+}
+.project-container {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px; 
+}
+
+.project, .hotel-2 {
+    flex: 1; 
+    margin: 0 20px; 
+    text-align: left; 
+}
+
+.project img, .hotel-2 img {
+    height: 300px; 
+    width: 300px;
+}
+
+.project a, .hotel-2 a {
+    display: block; 
+    margin-left: 20px; 
+    color: blue;
+    text-decoration: none; 
+}
+
+.project a:hover, .hotel-2 a:hover {
+    text-decoration: underline; 
+}
